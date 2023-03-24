@@ -33,9 +33,9 @@
 }
 
 .sidebar .monaco-list-row {
-  font-size: 20px;
+  font-size: 15px;
 }
-
+/*
 .sidebar .codicon {
   font-size: 120px;
 }
@@ -43,7 +43,7 @@
 .sidebar .monaco-icon-label:before {
   background-size: 120px;
 }
-
+ */
 
 
 /* Sweet sunset dots */
