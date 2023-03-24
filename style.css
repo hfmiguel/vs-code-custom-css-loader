@@ -123,12 +123,3 @@
 .part.panel.monaco-editor-background {
   box-shadow: -11px 2px 25px -7px rgba(14, 15, 18, 1);
 }
-
-.monaco-split-view .vertical {
-  background-color: rgba(40, 42, 52, 0.7);
-}
-
-span[title="Explorer"],
-.vs-dark .monaco-workbench > .part > .composite.title > .title-label span {
-  color: white;
-}
