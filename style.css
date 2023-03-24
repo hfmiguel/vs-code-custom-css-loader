@@ -35,22 +35,22 @@
  */
  .monaco-editor .cursors-layer .cursor {
   color: white;
-  background-color: rgb(98, 19, 145);
-  border-color: rgb(98, 19, 145);
-  box-shadow: 0 0 7px rgb(98, 19, 145);
+  background-color: deeppink;
+  border-color: deeppink;
+  box-shadow: 0 0 7px deeppink;
 }
 
 /** This highlights the fake cursors (f.e. on visual select) as well as the momentary highlight of yanked text. */
 .vs-dark.monaco-editor [class*="ced-1-TextEditorDecorationType"] {
   color: white !important;
-  background-color: rgb(98, 19, 145);
-  border-color: rgb(98, 19, 145);
-  box-shadow: 0 0 7px rgb(98, 19, 145);
+  background-color: deeppink;
+  border-color: deeppink;
+  box-shadow: 0 0 7px deeppink;
 }
 
 /* Active tab neon */
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit.active {
-  box-shadow: inset 0 -5px 25px rgb(98, 19, 145);
+  box-shadow: inset 0 -5px 25px deeppink;
   position: relative;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .tab.active {
-  border-bottom: 2px solid rgb(98, 19, 145) !important;
+  border-bottom: 2px solid deeppink !important;
 }
 
 .vs-dark .monaco-workbench > .part.editor > .content > .one-editor-silo > .container > .title.tabs:before {
