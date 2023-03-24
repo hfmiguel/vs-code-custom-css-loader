@@ -33,8 +33,10 @@
 }
 
 .sidebar .monaco-list-row {
-  font-size: 15px;
+  font-size: 12px;
 }
+
+
 /*
 .sidebar .codicon {
   font-size: 120px;
@@ -51,7 +53,6 @@
   box-shadow: inset 0 -5px 25px #fc28a825;
   position: relative;
 }
-
 
 .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit::after {
   content: '';
