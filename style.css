@@ -81,24 +81,17 @@
 
 /***** others modifications */
 
-.tab.active,
-.tab {
-  border-right: 0px !important;
-  border-left: 0px !important;
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab:first-child {
+  border-top-left-radius: 0;
 }
 
 .tab.active {
-  border-bottom: 2px solid #ffff00 !important;
-}
-
-.title.tabs.active,
-.tabs,
-.tablist,
-.tabs-container,
-.tab,
-.composite-title,
-.composite.title {
-  height: 60px !important;
+  border-bottom: 2px solid deeppink !important;
 }
 
 .vs-dark .monaco-workbench > .part.editor > .content > .one-editor-silo > .container > .title.tabs:before {
@@ -110,9 +103,4 @@
 }
 .monaco-workbench > .part > .composite.title {
   align-items: center;
-}
-
-.part.editor.monaco-editor-background,
-.part.panel.monaco-editor-background {
-  box-shadow: -11px 2px 25px -7px rgba(14, 15, 18, 1);
 }
