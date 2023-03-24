@@ -32,9 +32,9 @@
   max-width: 1500px;
 }
 
-/* .sidebar .monaco-list-row {
+.sidebar .monaco-list-row {
   font-size: 6px;
-} */
+}
 
 /*
 .sidebar .codicon {
