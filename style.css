@@ -81,13 +81,6 @@
 
 /***** others modifications */
 
-.composite-title,
-.composite-title,
-.vs-dark .monaco-workbench > .activitybar > .content {
-  background-color: rgba(40, 44, 52, 1) !important;
-}
-
-
 .tab.active,
 .tab {
   border-right: 0px !important;
