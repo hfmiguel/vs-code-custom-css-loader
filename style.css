@@ -1,0 +1,111 @@
+/* suggest-widget size */
+.tabs {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.monaco-editor .suggest-widget.docs-side {
+  width: 1500px;
+}
+
+.monaco-editor .suggest-widget.docs-side>.details {
+  width: 80%;
+  max-height: 1200px !important;
+}
+
+.monaco-editor .suggest-widget.docs-side>.tree {
+  width: 45%;
+  float: left;
+}
+
+/* parameter-hints-widget */
+
+.editor-widget.parameter-hints-widget.visible {
+  max-height: 1200px !important;
+}
+
+.monaco-editor .parameter-hints-widget>.wrapper {
+  max-width: 1500px;
+}
+
+.monaco-editor-hover .monaco-editor-hover-content {
+  max-width: 1500px;
+}
+
+.sidebar .monaco-list-row {
+  font-size: 120px;
+}
+
+.sidebar .codicon {
+  font-size: 120px;
+}
+
+.sidebar .monaco-icon-label:before {
+  background-size: 120px;
+}
+
+
+
+/* Sweet sunset dots */
+.monaco-workbench .activitybar>.content .monaco-action-bar .badge .badge-content {
+  background: linear-gradient(to bottom, #fff951 25%, #fc28a8);
+}
+
+/* Active tab neon */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit.active {
+  box-shadow: inset 0 -5px 25px #fc28a825;
+  position: relative;
+}
+
+/* Active tab stripe */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(to right, #fc28a8, #03edf9) !important;
+  opacity: 1;
+  z-index: 6;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 0px;
+  transition: opacity 1s;
+  opacity: 0;
+  z-index: 6;
+}
+
+/* Active sidebar item */
+.monaco-workbench .activitybar>.content .monaco-action-bar .action-item.checked {
+  box-shadow: inset 0 -5px 25px #fc28a825;
+  position: relative;
+}
+
+.monaco-workbench .activitybar>.content .monaco-action-bar .action-item.checked::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  width: 4px;
+  background: linear-gradient(to bottom, #fc28a8, #03edf9) !important;
+  opacity: 1;
+}
+
+.monaco-workbench .activitybar>.content .monaco-action-bar .action-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  transition: opacity 1s;
+  opacity: 0;
+}
