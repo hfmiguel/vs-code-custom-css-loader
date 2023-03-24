@@ -24,16 +24,15 @@
   font-size: 17px;
 }
 
-/*
 .sidebar .codicon {
-  font-size: 120px;
+  font-size: 40px;
 }
 
+/*
 .sidebar .monaco-icon-label:before {
   background-size: 120px;
 }
  */
-
  .monaco-editor .cursors-layer .cursor {
   color: white;
   background-color: rgb(98, 19, 145);
