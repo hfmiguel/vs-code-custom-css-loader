@@ -21,7 +21,7 @@
 }
 
 .sidebar .monaco-list-row {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .sidebar .codicon {
@@ -33,7 +33,7 @@
   background-size: 120px;
 }
  */
- .monaco-editor .cursors-layer .cursor {
+.monaco-editor .cursors-layer .cursor {
   color: white;
   background-color: deeppink;
   border-color: deeppink;
