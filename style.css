@@ -21,11 +21,11 @@
 }
 
 .sidebar .monaco-list-row {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .sidebar .codicon {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 /*
@@ -62,11 +62,11 @@
 }
 */
 
-
 /***** others modifications */
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 18px;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab:first-child {
