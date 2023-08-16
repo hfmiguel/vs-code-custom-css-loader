@@ -9,7 +9,7 @@
 }
 
 .editor-widget.parameter-hints-widget.visible {
-  max-height: 1200px !important;
+  max-height: 1500px !important;
 }
 
 .monaco-editor .parameter-hints-widget > .wrapper {
