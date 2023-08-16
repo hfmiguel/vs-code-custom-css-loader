@@ -4,6 +4,7 @@
   border-top-right-radius: 8px;
 }
 
+/*
 .monaco-editor .suggest-widget.docs-side {
   width: 1500px;
 }
@@ -18,22 +19,22 @@
 
 .monaco-editor-hover .monaco-editor-hover-content {
   max-width: 1500px;
-}
+}*/
 
 .sidebar .monaco-list-row {
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .sidebar .codicon {
-  font-size: 22px;
+  font-size: 24px;
 }
+
 
 /*
 .sidebar .monaco-icon-label:before {
   background-size: 120px;
 }
  */
-
 
 /** This highlights the fake cursors (f.e. on visual select) as well as the momentary highlight of yanked text. 
 .vs-dark.monaco-editor [class*="ced-1-TextEditorDecorationType"] {
