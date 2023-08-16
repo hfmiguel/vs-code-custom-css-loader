@@ -34,15 +34,16 @@
 }
  */
 
-/** This highlights the fake cursors (f.e. on visual select) as well as the momentary highlight of yanked text. */
+
+/** This highlights the fake cursors (f.e. on visual select) as well as the momentary highlight of yanked text. 
 .vs-dark.monaco-editor [class*="ced-1-TextEditorDecorationType"] {
   color: white !important;
   background-color: deeppink;
   border-color: deeppink;
   box-shadow: 0 0 7px deeppink;
 }
-
-/* Active tab neon */
+*/
+/* Active tab neon 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit.active {
   box-shadow: inset 0 -5px 25px deeppink;
   position: relative;
@@ -59,9 +60,10 @@
   opacity: 0;
   z-index: 6;
 }
+*/
+
 
 /***** others modifications */
-
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
