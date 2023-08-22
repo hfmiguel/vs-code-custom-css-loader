@@ -2,9 +2,9 @@
 .tabs {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  font-size: 18px !important;
 }
 
-/*
 .monaco-editor .suggest-widget.docs-side {
   width: 1500px;
 }
@@ -19,7 +19,7 @@
 
 .monaco-editor-hover .monaco-editor-hover-content {
   max-width: 1500px;
-}*/
+}
 
 .sidebar .monaco-list-row {
   font-size: 19px;
@@ -28,6 +28,20 @@
 .sidebar .codicon {
   font-size: 24px;
 }
+
+.monaco-tree-row.has-children {
+  font-weight: 500;
+  margin: 8px;
+  font-size: 14px;
+}
+
+.monaco-tree-row {
+  font-weight: 300;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.explorer-viewlet { font-weight: bold; }
 
 
 /*
@@ -67,17 +81,14 @@
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  font-size: 18px !important;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab:first-child {
   border-top-left-radius: 0;
-  font-size: 18px !important;
 }
 
 .tab.active {
   border-bottom: 2px solid deeppink !important;
-  font-size: 18px !important;
 }
 
 .vs-dark .monaco-workbench > .part.editor > .content > .one-editor-silo > .container > .title.tabs:before {
